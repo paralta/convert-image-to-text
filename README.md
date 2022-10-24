@@ -8,5 +8,5 @@ sudo apt install tesseract-ocr
 pip install -r requirements.txt
 
 # Run converter
-python main.py
+python main.py <filename>
 ```
