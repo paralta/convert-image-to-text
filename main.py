@@ -1,6 +1,7 @@
-import cv2
+"""Module to convert image to text using CLI."""
 import sys
-import pytesseract
+import cv2 # pylint: disable=import-error
+import pytesseract # pylint: disable=import-error
 
 image = cv2.imread(sys.argv[1])
 
